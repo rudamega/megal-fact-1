@@ -41,7 +41,7 @@ class Server {
 
 
     routes() {
-        // this.app.use('/api/categorias', require('../routes/categoria'));
+        this.app.use('/api/categorias', require('../routes/categoria'));
         // this.app.use('/api/articulos', require('../routes/articulo'));
         // this.app.use('/api/usuarios', require('../routes/usuario'));
         // this.app.use('/api/personas', require('../routes/persona'));
